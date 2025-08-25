@@ -1,5 +1,7 @@
 # Task description
 
+***Task 1. Test Cases***
+
 - Write test cases for an algorithm that "increments" a string. Use your preferred format for documenting test 
 cases. It will be estimated though - should be easy to read, easy to maintain, and easy to understand.
 

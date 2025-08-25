@@ -1,3 +1,18 @@
+/*
+Task 2. End-to-end test automation
+
+By using TypeScript and Playwright create a program that implements an end-to-end test for a standard Excel 
+function TODAY() in Excel online, Chrome browser. The test should verify that the returned value corresponds 
+to the date when the test is performed.
+
+Requirements:
+• Use configuration data (login, password, etc.) stored in a separate file.
+• Use test framework to trigger test execution.
+• The completed program should be available in a repository on GitHub.
+• The program should be provided with a demo recording, and a brief verbal description answering the 
+FAQ (instructions on how to run the test, any known bottlenecks/limitations/workarounds, alternative solutions, etc.);
+*/
+
 import { test, expect } from "@playwright/test";
 import { credentials } from "../config/credentials";
 
@@ -54,7 +69,6 @@ test.describe('Excel online tests with storage authentication', () => {
     
     // regex to extract only date values 
     const data = aria?.match(/\d{1,2}\/\d{1,2}\/\d{4}/)?.[0] ?? null;
-    console.log('A1 =', data); // eg.: "8/23/2025"
 
     // expected date (MM-yyyy-dd)
     const today = new Date();
