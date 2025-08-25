@@ -4,7 +4,8 @@
 
 # Senior Quality Assurance Engineer test task project
 
-This project contains automated tests with Excel using Playwright and manual test documentation creating tests for an algorithm that "increments" a string.
+This project contains automated tests for Excel using Playwright, as well as manual test documentation for an algorithm that increments a string.
+It was developed as part of the Senior Quality Assurance Engineer test task at Velixo.
 
 ## Project Structure
 
