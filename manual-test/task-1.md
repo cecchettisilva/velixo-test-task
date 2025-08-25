@@ -1,5 +1,7 @@
 # Task description
 
+***Task 1. Test Cases***
+
 - Write test cases for an algorithm that "increments" a string. Use your preferred format for documenting test 
 cases. It will be estimated though - should be easy to read, easy to maintain, and easy to understand.
 
@@ -88,43 +90,43 @@ By applying **Boundary Value Analysis (BVA)** and **Equivalence Partitioning (EP
 
 ***Test Case ID: TC004***\
 *Title: Valid - Increment with L=3 and D=3 (mid value)*\
-*Inputs: "AAA111"*\
-*Expect output: "AAA112"*
+*Inputs: "VLX111"*\
+*Expect output: "VLX112"*
 
 *Steps:*
 
-- GIVEN I provide the input string "AAA111" to the algorithm
+- GIVEN I provide the input string "VLX111" to the algorithm
 - WHEN the algorithm processes the input
 - THEN the algorithm should accept it as valid
-- AND the output should be the incremented string "AAA112"
+- AND the output should be the incremented string "VLX112"
 
 ---
 
 ***Test Case ID: TC005***\
 *Title: Valid - Increment with L=4 and D=4 (mid value)*\
-*Inputs: "AAAA1111"*\
-*Expect output: "AAAA1112"*
+*Inputs: "ABCD1111"*\
+*Expect output: "ABCD1112"*
 
 *Steps:*
 
-- GIVEN I provide the input string "AAAA1111" to the algorithm
+- GIVEN I provide the input string "ABCD1111" to the algorithm
 - WHEN the algorithm processes the input
 - THEN the algorithm should accept it as valid
-- AND the output should be the incremented string "AAAA1112"
+- AND the output should be the incremented string "ABCD1112"
 
 ---
 
 ***Test Case ID: TC006***\
 *Title: Valid - Increment with L=1 and D=4*\
-*Inputs: "A1111"*\
-*Expect output: "A1112"*
+*Inputs: "F1111"*\
+*Expect output: "F1112"*
 
 *Steps:*
 
-- GIVEN I provide the input string "A1111" to the algorithm
+- GIVEN I provide the input string "F1111" to the algorithm
 - WHEN the algorithm processes the input
 - THEN the algorithm should accept it as valid
-- AND the output should be the incremented string "A1112"
+- AND the output should be the incremented string "F1112"
 
 ---
 
@@ -172,15 +174,15 @@ By applying **Boundary Value Analysis (BVA)** and **Equivalence Partitioning (EP
 
 ***Test Case ID: TC010***\ 
 *Title: Valid - Increment with L=3 and D=3 (overflow case)*\
-*Inputs: "AAA999"*\
-*Expect output: "AAA000"*
+*Inputs: "VLX999"*\
+*Expect output: "VLX000"*
 
 *Steps:*
 
-- GIVEN I provide the input string "AAA999" to the algorithm
+- GIVEN I provide the input string "VLX999" to the algorithm
 - WHEN the algorithm processes the input
 - THEN the algorithm should accept it as valid
-- AND the output should be the incremented string "AAA000"
+- AND the output should be the incremented string "VLX000"
 
 ---
 

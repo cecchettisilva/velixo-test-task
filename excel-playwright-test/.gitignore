@@ -1,0 +1,7 @@
+
+# Playwright
+node_modules/
+/blob-report/
+/playwright/.cache/
+/storage/auth.json
+.env
