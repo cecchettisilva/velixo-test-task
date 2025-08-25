@@ -1,4 +1,4 @@
-<img src="excel-playwright-test/images/image.png" width="1000" height="300">
+<img src="excel-playwright-test/images/velixo-ts-pw.png" width="1000" height="300">
 
 <br>
 
@@ -119,7 +119,7 @@ Test execution reports can be found in:
 
 ## Video 
 
-- I put a video in `excel-playwright-test/videos/demo-recording.7z` with a quick overview of how the code was built, including a demo, workarounds, and improvements.
+- I put a video in the link bellow - [Download demo video](https://drive.google.com/file/d/1hfK4fFU7kJnmdgPQ_7lw7Asc0xiGEenu/view?usp=sharing) - with a quick overview of how the code was built, including a demo, workarounds, and improvements.
 
 <br>
 
