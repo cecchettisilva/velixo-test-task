@@ -119,7 +119,7 @@ Test execution reports can be found in:
 
 ## Video 
 
-- I put a video in `excel-playwright-test/videos/demo-recording` with a quick overview of how the code was built, including a demo, workarounds, and improvements.
+- I put a video in `excel-playwright-test/videos/demo-recording.7z` with a quick overview of how the code was built, including a demo, workarounds, and improvements.
 
 <br>
 
