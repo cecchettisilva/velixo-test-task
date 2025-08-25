@@ -116,6 +116,11 @@ Test execution reports can be found in:
 
   - Add helper files (e.g., createNewExcelWorkbook) containing groups of Playwright actions that can be reused for other interactions. 
 
+
+## Video 
+
+- I put a video in `excel-playwright-test/videos/demo-recording` with a quick overview of how the code was built, including a demo, workarounds, and improvements.
+
 <br>
 
 ---
